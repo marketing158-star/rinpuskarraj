@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUSHKAR RAJ THAKUR</title>
+
+    <!-- ========================================== -->
+    <!-- 1. META PIXEL & TRACKING CODE (START) -->
+    <!-- ========================================== -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      
+      // Facebook Pixel ID
+      fbq('init', '1534883274806776'); 
+      
+      // PageView Event
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+           src="https://www.facebook.com/tr?id=1534883274806776&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- ========================================== -->
+    <!-- META PIXEL CODE (END) -->
+    <!-- ========================================== -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #020b08;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        /* Outer Glow Border Container */
+        .card-container {
+            width: 100%;
+            max-width: 420px;
+            background: linear-gradient(180deg, #051a14 0%, #030d0a 100%);
+            border: 2px solid #00f5a0;
+            border-radius: 36px;
+            padding: 25px 18px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0, 245, 160, 0.35), inset 0 0 20px rgba(0, 245, 160, 0.15);
+        }
+
+        /* SEBI Badge Header */
+        .sebi-badge {
+            display: inline-block;
+            background-color: rgba(0, 245, 160, 0.1);
+            border: 1px solid rgba(0, 245, 160, 0.4);
+            color: #00f5a0;
+            font-size: 13px;
+            font-weight: 700;
+            padding: 8px 18px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Profile Image Section */
+        .profile-sec {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 18px;
+        }
+
+        .profile-box {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid #00f5a0;
+            overflow: hidden;
+            box-shadow: 0 0 20px #00f5a0;
+            background-color: #000;
+        }
+
+        .profile-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Name Title */
+        .main-name {
+            font-size: 25px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            line-height: 1.2;
+            margin-bottom: 4px;
+            color: #ffffff;
+        }
+
+        .sub-name {
+            font-size: 25px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            background: linear-gradient(90deg, #00f5a0, #00d9f5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Sub-description */
+        .sub-desc {
+            font-size: 13.5px;
+            color: #cbd5e1;
+            line-height: 1.5;
+            margin-bottom: 22px;
+            font-weight: 500;
+        }
+
+        /* Stats 3-Box Row */
+        .stats-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .stat-card {
+            flex: 1;
+            background-color: rgba(6, 32, 24, 0.7);
+            border: 1px solid rgba(0, 245, 160, 0.25);
+            border-radius: 16px;
+            padding: 12px 5px;
+            text-align: center;
+        }
+
+        .stat-card .val {
+            font-size: 17px;
+            font-weight: 800;
+            color: #00f5a0;
+            margin-bottom: 3px;
+        }
+
+        .stat-card .lbl {
+            font-size: 11.5px;
+            color: #94a3b8;
+            font-weight: 600;
+        }
+
+        /* 2x2 Features Grid */
+        .grid-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 22px;
+        }
+
+        .grid-card {
+            flex: 1;
+            background-color: rgba(6, 32, 24, 0.7);
+            border: 1px solid rgba(0, 245, 160, 0.25);
+            border-radius: 16px;
+            padding: 14px 10px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .grid-card span {
+            font-size: 18px;
+        }
+
+        .grid-card p {
+            font-size: 13.5px;
+            font-weight: 700;
+            color: #f8fafc;
+        }
+
+        /* Main Join Button */
+        .join-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            background: linear-gradient(135deg, #00f5a0 0%, #00d9f5 100%);
+            color: #030d0a;
+            font-size: 17px;
+            font-weight: 900;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 50px;
+            box-shadow: 0 0 25px rgba(0, 245, 160, 0.4);
+            letter-spacing: 0.5px;
+            transition: transform 0.2s;
+        }
+
+        .join-btn:active {
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        
+        <!-- SEBI Tag -->
+        <div class="sebi-badge">
+            SEBI Registered Research Analyst
+        </div>
+
+        <!-- Profile Image -->
+        <div class="profile-sec">
+            <div class="profile-box">
+                <img src="profile.png" alt="Profile Image">
+            </div>
+        </div>
+
+        <!-- Name Title -->
+        <div class="main-name">PUSHKAR RAJ</div>
+        <div class="sub-name">THAKUR</div>
+
+        <!-- Sub Title / Analysis Info -->
+        <div class="sub-desc">
+            Fast & Accurate Market Analysis •<br>Nifty • Bank Nifty • Options Trading
+        </div>
+
+        <!-- 3 Stats Boxes -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="val">60K+</div>
+                <div class="lbl">Members</div>
+            </div>
+            <div class="stat-card">
+                <div class="val">SEBI</div>
+                <div class="lbl">Registered</div>
+            </div>
+            <div class="stat-card">
+                <div class="val">FREE</div>
+                <div class="lbl">Join</div>
+            </div>
+        </div>
+
+        <!-- 2x2 Feature Grid -->
+        <div class="grid-row">
+            <div class="grid-card">
+                <span>📈</span>
+                <p>Nifty Calls</p>
+            </div>
+            <div class="grid-card">
+                <span>🏦</span>
+                <p>Bank Nifty</p>
+            </div>
+        </div>
+
+        <div class="grid-row" style="margin-bottom: 25px;">
+            <div class="grid-card">
+                <span>💹</span>
+                <p>Finnifty</p>
+            </div>
+            <div class="grid-card">
+                <span>📊</span>
+                <p>Swing Trades</p>
+            </div>
+        </div>
+
+        <!-- Main Join Telegram Button -->
+        <a id="telegramLink" href="https://t.me/+Bm6cU4-CeRgyM2E9" class="join-btn" onclick="trackButtonClick()">
+            🚀 JOIN TELEGRAM FREE
+        </a>
+
+    </div>
+
+    <!-- JavaScript - Pixel Tracking (Subscribe Event) -->
+    <script>
+        let telegramUrl = "https://t.me/+Bm6cU4-CeRgyM2E9"; 
+
+        // Set URL dynamically
+        document.getElementById("telegramLink").href = telegramUrl;
+
+        // Button Click Tracking (Subscribe Event Fire)
+        function trackButtonClick() {
+            if(typeof fbq !== 'undefined') {
+                fbq('trackCustom', 'TelegramBtnClick'); 
+                fbq('track', 'Subscribe'); 
+            }
+        }
+    </script>
+
+</body>
+</html>
